@@ -1,0 +1,45 @@
+{
+    "name": "Controlls",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "12acb077-5190-45f0-a20c-4d7c2facdc13",
+            "actions": [
+                {
+                    "name": "MouseTouch",
+                    "type": "Button",
+                    "id": "01d43122-0301-4d50-8ea0-a0b7223d53e7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4062bd68-1238-4a65-a980-4290ce2fc275",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37ac7baa-392a-4155-b837-804a92f99979",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
